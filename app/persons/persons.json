@@ -1,0 +1,14 @@
+[
+	{
+		"age": 0,
+		"id": "Normakster",
+		"name": "Normak",
+		"snippet": "This is me"
+	},
+	{
+		"age": 1,
+		"id": "Dorkus",
+		"name": "Dorkus",
+		"snippet": "foo bar entry"
+	}
+]

@@ -1,0 +1,27 @@
+<div class="person-images">
+  <img ng-src="{{img}}" class="person"
+      ng-class="{selected: img === $ctrl.mainImageUrl}"
+      ng-repeat="img in $ctrl.person.images" />
+</div>
+
+<h1>{{$ctrl.person.name}}</h1>
+
+<p>{{$ctrl.person.description}}</p>
+
+<ul class="person-thumbs">
+  <li ng-repeat="img in $ctrl.person.images">
+    <img ng-src="{{img}}" ng-click="$ctrl.setImage(img)" />
+  </li>
+</ul>
+
+<ul class="specs">
+  <li>
+    <span>Current Status</span>
+    <dl>
+      <dt>Location</dt>
+      <dd>{{$ctrl.person.status}}</dd>
+      <dt>Time Back:</dt>
+      <dd>{{$ctrl.person.etb}}</dd>
+    </dl>
+  </li>
+</ul>
