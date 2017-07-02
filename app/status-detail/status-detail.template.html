@@ -4,7 +4,7 @@
       ng-repeat="img in $ctrl.person.images" />
 </div>
 
-<h1>{{$ctrl.person.name}}</h1>
+<h1>{{$ctrl.person.username}}</h1>
 
 <p>{{$ctrl.person.description}}</p>
 
@@ -18,8 +18,10 @@
   <li>
     <span>Current Status</span>
     <dl>
-      <dt>Location</dt>
+      <dt>Status:</dt>
       <dd>{{$ctrl.person.status}}</dd>
+      <dt>Location:</dt>
+      <dd>{{$ctrl.person.location}}</dd>
       <dt>Time Back:</dt>
       <dd>{{$ctrl.person.etb}}</dd>
     </dl>

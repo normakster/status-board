@@ -1,14 +1,18 @@
 [
 	{
 		"age": 0,
-		"id": "Normakster",
+		"id": 1001,
+		"username": "Normakster",
 		"name": "Normak",
-		"snippet": "This is me"
+		"snippet": "This is me",
+		"imageUrl": "img/persons/normak.jpg"
 	},
 	{
 		"age": 1,
-		"id": "Dorkus",
+		"id": 1002,
+		"username": "Dorkus",
 		"name": "Dorkus",
-		"snippet": "foo bar entry"
+		"snippet": "foo bar entry",
+		"imageUrl": "img/persons/dorkus.jpg"
 	}
 ]

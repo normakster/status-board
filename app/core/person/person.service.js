@@ -4,10 +4,10 @@ angular.
   module('core.person').
   factory('Person', ['$resource',
     function($resource) {
-      return $resource('persons/:personId.json', {}, {
+      return $resource('persons/:personUsername.json', {}, {
         query: {
           method: 'GET',
-          params: {personId: 'persons'},
+          params: {personUsername: 'persons'},
           isArray: true
         }
       });

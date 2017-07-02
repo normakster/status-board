@@ -1,6 +1,13 @@
 {
-	"id": "Dorkus",
-	"name": "Dorkus",
+	"id": 1002,
+	"username": "Dorkus",
+	"name": "D.D.",
+	"location": "Uptown",
 	"status": "In",
-	"etb": ""
+	"etb": "",
+	"description": "D.D. is awesomer than Normak.",
+	"images": [
+		"img/persons/dorkus.jpg",
+                "img/persons/dorkus.png"
+	]
 }

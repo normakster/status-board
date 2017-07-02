@@ -10,7 +10,7 @@ angular.
         when('/statusboard', {
           template: '<status-list></status-list>'
         }).
-        when('/persons/:personId', {
+        when('/persons/:personUsername', {
           template: '<status-detail></status-detail>'
         }).
         otherwise('/statusboard');

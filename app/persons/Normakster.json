@@ -1,6 +1,13 @@
 {
-	"id": "Normakster",
+	"id": 1001,
+	"username": "Normakster",
 	"name": "Normak",
+	"location": "Downtown",
 	"status": "out",
-	"etb": "1300"
+	"etb": "1300",
+	"description": "Totally an awesome Dude!",
+	"images": [
+		"img/persons/normak.jpg",
+		"img/persons/normak1.jpg"
+	]
 }
